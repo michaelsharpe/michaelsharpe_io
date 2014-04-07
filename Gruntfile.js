@@ -62,7 +62,7 @@ module.exports = function(grunt) {
     watch: {
       options: {livereload: true},
       javascript: {
-        files: ['assets/js/*.js', 'assets/js/vendor/*.js'],
+        files: ['assets/js/*.js'],
         tasks: ['jshint', 'concat']
         //Removed uglify from here, for now.
       },

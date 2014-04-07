@@ -5307,21 +5307,9 @@ body {
     list-style: none;
     text-align: center; }
   .social-icons li {
-    height: 8em;
-    transition: all 0.5s ease-in-out;
+    height: 5em;
     display: inline-block;
     margin: 0 1rem; }
-  .social-icons li:hover {
-    -webkit-transform-origin: 40px 40px;
-    -moz-transform-origin: 40px 40px;
-    -ms-transform-origin: 40px 40px;
-    -o-transform-origin: 40px 40px;
-    transform-origin: 40px 40px;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg); }
 
 .sprite {
   transition: all 0.5s ease-in-out; }
