@@ -26,11 +26,12 @@ body {
 
 .main-quote {
   text-align: center;
+  margin-bottom: 30px;
   p {
     color: $white;
     font-family: $font-family;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: lighter;
     line-height: 130%;
     margin-bottom: 0;
@@ -67,11 +68,5 @@ body {
   }
   line {
     stroke: white;
-  }
-}
-
-@media screen and(max-width: 720){
-  .sprite {
-    
   }
 }
