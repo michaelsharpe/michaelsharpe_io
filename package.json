@@ -1,15 +1,19 @@
 {
-  "name": "zf5_project",
+  "name": "michaelsharpe.io",
   "description": "",
   "version": "0.0.1",
   "homepage": "",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "Michael Sharpe",
+    "email": "m.sharpe@project89.org"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "www.michaelsharpe.io"
   },
   "devDependencies": {
     "node-sass": "~0.8.4",
@@ -23,6 +27,7 @@
     "grunt-sass": "~0.12.1"
   },
   "dependencies": {
-    "grunt-contrib-sass": "~0.7.3"
+    "express": "3.5.1",
+    "ejs": "*"
   }
 }
