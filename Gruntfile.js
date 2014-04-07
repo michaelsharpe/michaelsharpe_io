@@ -21,6 +21,8 @@ module.exports = function(grunt) {
       },
       dist: {
         src: [
+        'bower_components/jquery/dist/jquery.min.js',
+        'assets/js/vendor/*.js',
         'assets/js/*.js'
         ],
         dest: 'public/js/app.js'
@@ -60,7 +62,7 @@ module.exports = function(grunt) {
     watch: {
       options: {livereload: true},
       javascript: {
-        files: ['assets/js/*.js'],
+        files: ['assets/js/*.js', 'assets/js/vendor/*.js'],
         tasks: ['jshint', 'concat']
         //Removed uglify from here, for now.
       },

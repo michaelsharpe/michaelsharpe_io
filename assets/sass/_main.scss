@@ -10,25 +10,75 @@ body {
 
 .main-header {
   text-align: center;
+  margin: 3rem 0 3rem 0;
   h1 {
+    font-size: 2em;
     color: $white;
-    font-family:
+    font-family: 'Geosans-light', $font-family;
+    font-weight: 100;
   }
 }
 
 .logo{
   text-align: center; 
+  margin: 0 0 1.5rem 0;
 }
 
 .main-quote {
-  color: $white;
-  font-size: 20px;
-  font-family: $font-family;
   text-align: center;
   p {
+    color: $white;
     font-family: $font-family;
     text-align: center;
-    font-size: 2rem;
+    font-size: 0.8em;
+    font-weight: lighter;
     line-height: 130%;
+    margin-bottom: 0;
+  }
+}
+
+.social-icons {
+  margin: 1rem 0 0 0;
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  li{
+    height: 8em;
+    transition:all 0.5s ease-in-out;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  li:hover {
+    -webkit-transform-origin: 40px 40px;
+    -moz-transform-origin: 40px 40px;
+    -ms-transform-origin: 40px 40px;
+    -o-transform-origin: 40px 40px;
+    transform-origin: 40px 40px;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+.sprite {
+  transition:all 0.5s ease-in-out;
+  circle {
+    fill: $primary-purple;
+  }
+}
+
+.sprite:hover {
+  circle:not(#github-circle){
+    stroke: white;
+  }
+  path {
+    stroke: white;
+  }
+  line {
+    stroke: white;
   }
 }

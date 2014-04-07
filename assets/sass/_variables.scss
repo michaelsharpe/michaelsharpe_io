@@ -9,8 +9,13 @@ $white: #FFF;
 };
 
 @font-face {
-  font-family: 'Avenir';
-  src: url('./../fonts/Avenir.ttc');
+  font-family: 'Avenir-book';
+  src: url('./../fonts/Avenir_0.ttf');
 }
 
-$font-family: 'Avenir', helvetica;
+@font-face {
+  font-family: 'Avenir-light';
+  src: url('./../fonts/Avenir_6.ttf');
+}
+
+$font-family: 'Avenir-light', helvetica;
