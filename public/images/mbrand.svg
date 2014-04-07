@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<?xml-stylesheet type="text/css" href="./../css/style.css"?>
+
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="216px" height="216px" viewBox="0 0 216 216" enable-background="new 0 0 216 216" xml:space="preserve">
-<g id="Logo">
-	<path fill="#FFFFFF" d="M108,214.509l-92.238-53.254V54.746L108,1.491l92.238,53.254v106.509L108,214.509z M27.154,154.676
-		L108,201.353l80.848-46.677V61.322L108,14.649L27.154,61.322V154.676z"/>
-	<polygon fill="#FFFFFF" points="177.398,155.109 163.153,155.109 163.153,85.817 108,121.082 52.845,85.817 52.845,153.976 
-		38.604,153.976 38.604,59.807 108,104.18 177.398,59.807 	"/>
-</g>
+   <animateTransform attributeName="transform" 
+                          attributeType="XML"
+                          type="rotate" 
+                          from="0 108 108" 
+                          to="360 108 70" 
+                          dur="10s"
+                          repeatCount="indefinite"/>
+  <g id="Logo">
+  	<path fill="#FFFFFF" class="outer-logo" d="M108,214.509l-92.238-53.254V54.746L108,1.491l92.238,53.254v106.509L108,214.509z M27.154,154.676
+  		L108,201.353l80.848-46.677V61.322L108,14.649L27.154,61.322V154.676z"/>
+  	<polygon fill="#FFFFFF" class="inner-logo" points="177.398,155.109 163.153,155.109 163.153,85.817 108,121.082 52.845,85.817 52.845,153.976 
+  		38.604,153.976 38.604,59.807 108,104.18 177.398,59.807"/>
+  </g>
 </svg>

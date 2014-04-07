@@ -1,0 +1,16 @@
+$primary-purple: #884A9D;
+$white: #FFF;
+
+// Fonts
+
+@font-face {
+  font-family: 'Geosans-light';
+  src: url('./../fonts/GeosansLight.ttf');
+};
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./../fonts/Avenir.ttc');
+}
+
+$font-family: 'Avenir', helvetica;

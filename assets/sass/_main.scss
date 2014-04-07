@@ -1,14 +1,34 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: #884A9D;
+  background-color: $primary-purple;
 }
 
 .container {
   position: relative;
 }
-.logo {
-  position: relative;
-  left: 42%;
-  top: 240px;
+
+.main-header {
+  text-align: center;
+  h1 {
+    color: $white;
+    font-family:
+  }
+}
+
+.logo{
+  text-align: center; 
+}
+
+.main-quote {
+  color: $white;
+  font-size: 20px;
+  font-family: $font-family;
+  text-align: center;
+  p {
+    font-family: $font-family;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 130%;
+  }
 }
