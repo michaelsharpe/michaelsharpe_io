@@ -22,24 +22,22 @@ Vagrant.configure(2) do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
-  config.vm.define "local" do |local|
-    local.vm.box = "precise64"
-    local.vm.box_url = "http://files.vagrantup.com/precise64.box"
+  # config.vm.define "local" do |local|
+  #   local.vm.box = "precise64"
+  #   local.vm.box_url = "http://files.vagrantup.com/precise64.box"
 
-  end
+  # end
 
-  config.vm.define "production" do |prod|
-    config.vm.provider :digital_ocean do |provider, override|
-      override.ssh.private_key_path = '~/.ssh/id_rsa'
-      override.vm.box = 'digital_ocean'
-      override.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
+  config.vm.provider :digital_ocean do |provider, override|
+    override.ssh.private_key_path = '~/.ssh/id_rsa'
+    override.vm.box = 'digital_ocean'
+    override.vm.box_url = "https://github.com/smdahlen/vagrant-digitalocean/raw/master/box/digital_ocean.box"
 
-      provider.ssh_key_name = "ubuntu"
-      provider.token = getToken()
-      provider.image = 'ubuntu-14-04-x64'
-      provider.region = 'nyc2'
-      provider.size = '512mb'
-    end
+    provider.ssh_key_name = "ubuntu"
+    provider.token = getToken()
+    provider.image = 'ubuntu-14-04-x64'
+    provider.region = 'nyc2'
+    provider.size = '512mb'
   end
 
   config.berkshelf.enabled = true
